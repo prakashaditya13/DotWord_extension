@@ -21,4 +21,4 @@ LinkedIn Link - [Aditya Prakash](https://www.linkedin.com/in/prakashaditya13/)
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://raw.githubusercontent.com/prakashaditya13/DotWord_extension/main/LICENSE)
