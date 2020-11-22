@@ -1,0 +1,100 @@
+/* #word-Success{
+    top: 10px;
+    left: 10px;
+    width: 350px;
+    max-width: 350px;
+    position: absolute;
+    border: 1px solid;
+    background: #fff;
+    z-index: 999999999;
+} */
+#word-error{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    width: 400px;
+    height: auto;
+    overflow-y: auto;
+    z-index: 999999999;
+    border: 2px solid red;
+}
+#word-content{
+    top: 20px !important;
+    left: 20px !important;
+    width: 400px !important;
+    height: 150px !important;
+    overflow-y: auto;
+    position: fixed !important;
+    background: #fff;
+    border-radius: 10px 10px !important;
+    padding: 5px 5px !important;
+    z-index: 999999999;
+    border: .5px solid grey;
+}
+.border-clr{
+    width: 100%;
+    height: 10px;
+    background: green;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+#word-content #word{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 15px;
+    color: #000 !important;
+}
+#word-content #word #word-txt{
+    font-size: 18px !important;
+    color:#767272 !important;
+}
+#word-content #def{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 50px !important;
+    color:#767272 !important;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-decoration: underline;
+    font-size: 12px !important;
+}
+#word-content #def-content{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 70px !important;
+    font-size: 12px !important;
+}
+/* #word-content #exam{
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 85px !important;
+    color:#767272 !important;
+    font-weight: bold;
+    letter-spacing: 1.2px !important;
+    text-decoration: underline;
+    font-size: 12px !important;
+}
+#word-content #exam-content{
+    margin-left: 15px !important;
+    position: absolute;
+    margin-top: 105px !important;
+    font-size: 12px !important;
+}
+#word-content #syno{
+    margin-left: 15px;
+    position: absolute;
+    top: 117px;
+    color:#767272;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    text-decoration: underline;
+}
+#word-content #syno-content{
+    margin-left: 15px;
+    position: absolute;
+    top: 140px;
+    font-size: 14px;
+} */

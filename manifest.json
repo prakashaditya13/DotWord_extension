@@ -1,0 +1,42 @@
+{
+    "manifest_version": 2,
+    "name": "Dot Word",
+    "author": "Aditya Prakash",
+    "version": "1.0",
+    "description": "This extension helps you to find any word definitions, synonyms, Antonymns, example etc when user select any words from the webpage.",
+    "icons": {
+        "128": "icons/icon128.png",
+        "48": "icons/icon48.png",
+        "16": "icons/icon16.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content_service/WordContent.js"],
+            "css": ["content_service/Wordcontent.css"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "24": "icons/icon24.png",
+            "32": "icons/icon32.png"
+        },
+        "default_popup": "background_service/SwitchPopup.html",
+        "default_title": "Dot Word Extension"
+    },
+    "options_page": "background_service/WordSetting.html",
+    "background": {
+        "scripts": ["background_service/SwitchPage.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "incognito": "not_allowed",
+    "offline_enabled": false
+}
