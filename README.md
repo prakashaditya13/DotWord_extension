@@ -4,7 +4,7 @@ A chrome extension for finding any word definitions, when user select any words 
 
 ## Installation
 
-Just go the [chrome extension webstore](https://chrome.google.com/webstore/category/extensions)(Currently not hosted on chrome) to install dot word extension into your chrome browser.
+Just go to the [chrome extension webstore](https://chrome.google.com/webstore/category/extensions)(Currently not hosted on chrome) to install dot word extension into your chrome browser.
 
 ## Usage
 
